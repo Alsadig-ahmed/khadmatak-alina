@@ -8,7 +8,6 @@
 <div class="container">
 	<main class="c">
 		<Servce title="اطلب ترحال" />
-		<Servce title="ارسال رسالة للادارة" />
 		<Servce title="توصيل جميع الخدمات" />
 		<Servce title="ترحال رقشات" />
 		<Servce title="اطلب فنين" />
@@ -17,8 +16,6 @@
 		<Servce title="اجار زفاف وبدل  + حجز جلسات تجميل" />
 		<Servce title="طلب حبائز و حلويات" />
 		<Servce title="حجز طباخ" />
-		<Servce title="المشرفين" />
-		<Servce title="معلومات عن التطبيق" />
 	</main>
 </div>
 
