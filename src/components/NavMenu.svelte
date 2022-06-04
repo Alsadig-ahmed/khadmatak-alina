@@ -21,7 +21,7 @@
     <a href="#news">المشرفين</a>
     <a href="#contact">معلومات عن التطبيق</a>
   </div>
-  <a href="javascript:void(0);" class="icon" on:click={myFunction}>
+  <a href="#" class="icon" on:click={myFunction}>
     <!-- <svg viewBox='0 0 10 8' width='40'>
       <path d='M1 1h8M1 4h 8M1 7h8' 
             stroke='#000' 

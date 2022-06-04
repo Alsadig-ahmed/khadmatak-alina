@@ -7,15 +7,15 @@
 
 <div class="container">
 	<main class="c">
-		<Servce title="اطلب ترحال" />
-		<Servce title="توصيل جميع الخدمات" />
-		<Servce title="ترحال رقشات" />
-		<Servce title="اطلب فنين" />
+		<Servce url='tirihal' title="اطلب ترحال" />
+		<Servce url="tel:+249967013268" title="توصيل جميع الخدمات" />
+		<Servce url='ragsha' title="ترحال رقشات" />
+		<Servce url="tel:+249127871027" title="اطلب فنين" />
 		<Servce title="ايجار وشراء منازل" />
-		<Servce title=" شراء + صيانة تلفونات" />
-		<Servce title="اجار زفاف وبدل  + حجز جلسات تجميل" />
-		<Servce title="طلب حبائز و حلويات" />
-		<Servce title="حجز طباخ" />
+		<Servce url="tel:+249967013268" title=" شراء + صيانة تلفونات" />
+		<Servce url='makeup' title="اجار زفاف وبدل  + حجز جلسات تجميل" />
+		<Servce url="tel:+249919784021" title="طلب حبائز و حلويات" />
+		<Servce url="tel:+249967013268" title="حجز طباخ" />
 	</main>
 </div>
 

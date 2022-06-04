@@ -1,10 +1,24 @@
 <script>
 	export let title = 'servce name';
+	export let url = '';
 </script>
+<h3 class="service">
+<a href={url}>
+		{title}
+	</a>
+</h3>
 
-<h3 class="service">{title}</h3>
 
-<style>
+<style lang="scss">
+	a{
+		color: inherit;
+		&:hover{
+			color: blue;
+
+		}
+
+	}
+
 	.service {
 		background-color: rgb(210, 230, 210);
 		margin: 0.4rem;

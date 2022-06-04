@@ -3,7 +3,7 @@
 	export let title = 'خدمتك علينا';
 </script>
 
-<NavMenu />
+<NavMenu  {title} />
 <!-- <div class="hero">{title}</div> -->
 
 <div class="fix"></div>
