@@ -3,9 +3,7 @@ import Servce from "../components/Servce.svelte";
 import Header from "../components/Header.svelte";
 
 </script>
-<svelte:head>
-    <link rel="stylesheet" href="/style.css" />
-</svelte:head>
+
 <Header />
 
 <div class="container">    
@@ -24,3 +22,15 @@ import Header from "../components/Header.svelte";
         <Servce title='معلومات عن التطبيق' />
     </main>
 </div>
+<style>
+    .c {
+    
+    width: 100%;
+    height: 1000vh;
+    padding: .2rem;
+}
+.container{
+  max-width: 460px;
+  margin: auto;
+}
+</style>
