@@ -4,7 +4,7 @@ import Header from "../components/Header.svelte";
 
 </script>
 <svelte:head>
-    <link rel="stylesheet" href="/style.scss" />
+    <link rel="stylesheet" href="/src/style.scss" />
 </svelte:head>
 <Header />
 
