@@ -11,7 +11,7 @@
 		<Servce url="tel:+249967013268" title="توصيل جميع الخدمات" />
 		<Servce url='ragsha' title="ترحال رقشات" />
 		<Servce url="tel:+249127871027" title="اطلب فنين" />
-		<Servce title="ايجار وشراء منازل" />
+		<Servce url='realstate' title="ايجار وشراء منازل" />
 		<Servce url="tel:+249967013268" title=" شراء + صيانة تلفونات" />
 		<Servce url='makeup' title="اجار زفاف وبدل  + حجز جلسات تجميل" />
 		<Servce url="tel:+249919784021" title="طلب حبائز و حلويات" />
