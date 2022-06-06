@@ -16,7 +16,7 @@
 			<p>{description}</p>
 		</div>
 	</a>
-</div>
+</div><br>
 
 <style lang="scss">
 	div.c {
