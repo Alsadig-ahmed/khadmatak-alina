@@ -1,27 +1,29 @@
 <script>
 	export let title = 'servce name';
 	export let url = '';
+	export let bg = '#d2e6d2';
 </script>
-<h3 class="service">
-<a href={url}>
-		{title}
-	</a>
-</h3>
 
+<a href={url}>
+	<h3 style="background-color:{bg};" class="service">
+		{title}
+	</h3>
+</a>
 
 <style lang="scss">
-	a{
+	a {
 		color: inherit;
-		&:hover{
+		text-decoration: none;
+		&:hover {
 			color: blue;
-
+			text-decoration: underline;
 		}
-
 	}
 
 	.service {
-		background-color: rgb(210, 230, 210);
+		background-color: #d2e6d2;
 		margin: 0.4rem;
+		padding: .4rem;
 		border-radius: 0.5rem;
 	}
 </style>
