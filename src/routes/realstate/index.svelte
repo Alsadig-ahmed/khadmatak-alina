@@ -5,7 +5,7 @@
     let url= "tel:+249127871021";
     let img= "/home.jpg";
     let price= "2000,000";
-    let description= "قطعة أرص بربك مربع 6 بمساحة 400";
+    let description= "قطعة أرض بربك مربع 6 بمساحة 400";
 </script>
 
 <Header title="ايحار وشراء منازل" />

@@ -14,7 +14,7 @@
 		<Servce url='realstate' title="ايجار وشراء منازل" />
 		<Servce url="tel:+249967013268" title=" شراء + صيانة تلفونات" />
 		<Servce url='makeup' title="اجار زفاف وبدل  + حجز جلسات تجميل" />
-		<Servce url="tel:+249919784021" title="طلب حبائز و حلويات" />
+		<Servce url="tel:+249919784021" title="طلب خبائز و حلويات" />
 		<Servce url="tel:+249967013268" title="حجز طباخ" />
 	</main>
 </div>
