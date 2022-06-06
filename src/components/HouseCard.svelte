@@ -23,9 +23,21 @@
 		background-color: rgb(255, 247, 247);
 		position: relative;
 		margin: 0.8rem 1rem;
-		height: 20rem;
+		height: 25rem;
 		box-shadow: 0 0 0.5rem 0.2rem rgba(36, 35, 35, 0.623);
 		border-radius: 1rem;
+		.description{
+			color: rgba(59, 55, 55, 0.918);
+			background:rgba(255, 255, 255, 0.788);
+			margin-top: 0rem;
+			border-radius: 1rem;
+			
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+            z-index: 5;
+		}
 		h3 {
             position: absolute;
             color: rgba(255, 255, 255, 0.863);
@@ -44,7 +56,7 @@
 	img {
 		// background-image: url('/home.jpg');
 		border-radius: 1rem;
-		height: 20rem;
+		// height: 20rem;
 		width: 100%;
 		position: absolute;
         top:0;bottom: 0;left: 0;right: 0;
