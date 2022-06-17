@@ -8,7 +8,8 @@
 	<h3 style="background-color:{bg};" class="service flex">
 		<div class="cricle left" />
 		{title}
-		<div class="cricle right" />
+   
+	<div class=" right"> <i class="fa fa-facebook"></i></div>
 	</h3>
 </a>
 
