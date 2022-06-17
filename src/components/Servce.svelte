@@ -2,6 +2,7 @@
 	export let title = 'servce name';
 	export let url = '';
 	export let bg = '#d2e6d2';
+	export let icon = '';
 </script>
 
 <a href={url}>
@@ -9,7 +10,7 @@
 		<div class="cricle left" />
 		{title}
    
-	<div class=" right"> <i class="fa fa-facebook"></i></div>
+	<div class=" right"> <i class="fa fa-{icon}"></i></div>
 	</h3>
 </a>
 
