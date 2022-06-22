@@ -16,8 +16,8 @@
   <a href="/" class="active fs-2">{title}</a>
   <!-- Navigation links (hidden by default) -->
   <div id="myLinks">
-    <a href="#about">تنزيل التطبيق</a>
-    <a href="mailto:alsadq.ahmed@gmail.com">ارسال رسالة للادارة</a>
+    <a href="https://www.mediafire.com/file/2c8orwd7j82jfpl/build-482240-473623.apk/file">تنزيل التطبيق</a>
+    <a href="mailto:abdos09670@gmail.com">ارسال رسالة للادارة</a>
     <a href="supervisor">المشرفين</a>
     <a href="about">معلومات عن التطبيق</a>
   </div>
