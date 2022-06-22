@@ -7,10 +7,9 @@
 
 <a href={url}>
 	<h3 style="background-color:{bg};" class="service flex">
-		<div class=" right"> <i class="fa fa-{icon}"></i></div>
+		<div class=" right"><i class="fa fa-{icon}" /></div>
 		{title}
 		<div class="cricle left" />
-   
 	</h3>
 </a>
 
