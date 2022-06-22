@@ -4,16 +4,21 @@
 	import Wrapper from '$lib/Wrapper.svelte';
 
 	let url = 'tel:+249922866969';
-	let img = '/home.jpg';
+	// let whatsapp = 'https://wa.me/249922866969';
+	const cars = [
+		{ name: 'بوكسي تيوتا', img: '/imgs/cars/IMG-20220621-WA0004.jpg' },
+		{ name: 'أتس', img: '/imgs/cars/IMG-20220621-WA0019.jpg' },
+		{ name: 'كلك', img: '/imgs/cars/IMG-20220621-WA0022.jpg' },
+		{ name: 'أكسن', img: '/imgs/cars/IMG-20220621-WA0000.jpg' },
+		{ name: 'أفانتي', img: '/imgs/cars/IMG-20220621-WA0013.jpg' },
+		{ name: 'شريحة', img: '/imgs/cars/IMG-20220621-WA0023.jpg' },
+		{ name: 'هايس', img: '/imgs/cars/IMG-20220621-WA0014.jpg' }
+	];
 </script>
 
 <Header title="اطلب ترحال" />
 <Wrapper>
-	<Card {img} {url} text="بوكسي تيوتا" />
-	<Card {img} {url} text="أتس" />
-	<Card {img} {url} text="كلك" />
-	<Card {img} {url} text="أكسن" />
-	<Card {img} {url} text="أفانتي" />
-	<Card {img} {url} text="شريحة" />
-	<Card {img} {url} text="هايس" />
+	{#each cars as car}
+		<Card img={car.img} {url} text={car.name} />
+	{/each}
 </Wrapper>
