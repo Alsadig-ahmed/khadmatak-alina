@@ -3,6 +3,7 @@
 	import Header from '../components/Header.svelte';
 	import Wrapper from '$lib/Wrapper.svelte';
 	import Whatsappclr from '$lib/svg-icons/Whatsappclr.svelte';
+	import App from '$lib/modal/App.svelte';
 
 	let Servces = [
 		{ url: 'tirihal', title: 'أطلب ترحال', bg:'#9bbe1c', icon: 'car' },
@@ -29,16 +30,16 @@
 	{/each}
 </Wrapper>
 
+<!-- <App /> -->
 <style lang="scss">
 	a {
-		background-color: red;
+		background-color: #00e676;
 		color: white;
-		padding: 0.2rem;
+		padding: 0.3rem;
 		display: inline-block;
 		border-radius: 0.8rem;
 		&:hover {
-			background-color: rgb(255, 136, 0);
-			color: rgb(129, 118, 118);
+			background-color: rgb(64, 141, 61);
 		}
 	}
 </style>
