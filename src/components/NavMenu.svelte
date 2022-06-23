@@ -16,7 +16,7 @@
   <a href="/" class="active fs-2">{title}</a>
   <!-- Navigation links (hidden by default) -->
   <div id="myLinks">
-    <a href="https://www.mediafire.com/file/2c8orwd7j82jfpl/build-482240-473623.apk/file">تنزيل التطبيق</a>
+    <a href="https:bit.ly/alina-app"  target="_blank" rel="noopener noreferrer">تنزيل التطبيق</a>
     <a href="mailto:abdos09670@gmail.com">ارسال رسالة للادارة</a>
     <a href="supervisor">المشرفين</a>
     <a href="about">معلومات عن التطبيق</a>
