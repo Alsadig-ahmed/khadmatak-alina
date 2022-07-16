@@ -17,7 +17,8 @@
   <!-- Navigation links (hidden by default) -->
   <div id="myLinks">
     <a href="https:bit.ly/alina-app"  target="_blank" rel="noopener noreferrer">تنزيل التطبيق</a>
-    <a href="mailto:abdos09670@gmail.com">ارسال رسالة للادارة</a>
+    <!-- <a href="mailto:abdos09670@gmail.com">ارسال رسالة للادارة</a> -->
+    <a href="mailto:fkar.tgdme@gmail.com">ارسال رسالة للادارة</a>
     <a href="supervisor">المشرفين</a>
     <a href="about">معلومات عن التطبيق</a>
   </div>
