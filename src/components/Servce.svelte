@@ -2,12 +2,12 @@
 	export let title = 'servce name';
 	export let url = '';
 	export let bg = '#d2e6d2';
-	export let icon = '';
+	// export let icon = '';
 </script>
 
 <a href={url}>
 	<h3 style="background-color:{bg};" class="service flex">
-		<div class=" right"><i class="fa fa-{icon}" /></div>
+		<div class=" right"><slot/></div>
 		{title}
 		<div class="cricle left" />
 	</h3>
