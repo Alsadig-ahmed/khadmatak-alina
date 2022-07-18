@@ -5,12 +5,13 @@ import { VitePWA } from 'vite-plugin-pwa'
 const config = {
 	plugins: [
 		sveltekit(),
-		VitePWA({
-			 registerType: 'autoUpdate',
-			 devOptions: {
-				enabled: true
-			  }
-			})]
+		// VitePWA({
+		// 	 registerType: 'autoUpdate',
+		// 	 devOptions: {
+		// 		enabled: true
+		// 	  }
+		// 	})
+	]
 };
 
 export default config;
