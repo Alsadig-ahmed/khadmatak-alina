@@ -31,5 +31,8 @@
 		"vite": "^3.0.0",
 		"vite-plugin-pwa": "^0.12.3"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"firebase": "^9.8.3"
+	}
 }
