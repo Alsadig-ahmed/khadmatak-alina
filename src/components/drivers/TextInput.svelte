@@ -2,7 +2,6 @@
     import{slide}from 'svelte/transition'
 	export let value = '';
 	export let placeholder = '';
-	let rating;
 	let isactive = false;
 	let isShown = false;
 </script>
@@ -34,9 +33,9 @@
 		margin-bottom: 0.2rem;
 		font-size: 1.3rem;
 		// outline: 2px solid rgb(85, 148, 88);
-		&::placeholder {
-			// color: rgb(37, 168, 19);
-		}
+		// &::placeholder {
+		// 	// color: rgb(37, 168, 19);
+		// }
 	}
 	.isactive {
 		background: rgb(200, 206, 201);
