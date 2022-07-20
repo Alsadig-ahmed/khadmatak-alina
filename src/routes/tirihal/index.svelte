@@ -1,8 +1,8 @@
-<script>
+<script lang="ts">
+	import DriversForm from '../../components/drivers/DriversForm.svelte';
 	import Header from '../../components/Header.svelte';
 	import Card from '../../components/Card.svelte';
 	import Wrapper from '$lib/Wrapper.svelte';
-
 	let url = 'tel:+249922866969';
 	// let whatsapp = 'https://wa.me/249922866969';
 	const cars = [
@@ -18,6 +18,7 @@
 
 <Header title="اطلب ترحال" />
 <Wrapper>
+	<!-- <DriversForm /> -->
 	{#each cars as car}
 		<Card img={car.img} {url} text={car.name} />
 	{/each}
