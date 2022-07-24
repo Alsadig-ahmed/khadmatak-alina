@@ -1,6 +1,9 @@
+<script>
+	export let square= '1.2rem' ;
+</script>
 <svg
-	width="1.2rem"
-	height="1.2rem"
+	width={square}
+	height={square}
 	version="1.1"
 	id="Capa_1"
 	xmlns="http://www.w3.org/2000/svg"
