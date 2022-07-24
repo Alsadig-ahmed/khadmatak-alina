@@ -11,7 +11,7 @@
 	class:isactive
 	on:focus={() => ((isactive = true), (isShown = true))}
 	on:blur={() => ((isactive = false), (isShown = false))}
-	{value}
+	bind:value
 	{placeholder}
 />
 {#key isShown}
@@ -32,13 +32,14 @@
 		width: 80%;
 		margin-bottom: 0.2rem;
 		font-size: 1.3rem;
+		background: rgba(255, 255, 255, 0.178);
 		// outline: 2px solid rgb(85, 148, 88);
 		// &::placeholder {
 		// 	// color: rgb(37, 168, 19);
 		// }
 	}
 	.isactive {
-		background: rgb(200, 206, 201);
+		background: rgba(200, 206, 201, 0.788);
 		&::placeholder {
 			color: rgb(20, 32, 192);
 		}
