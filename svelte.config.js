@@ -7,7 +7,11 @@ const config = {
 	preprocess: preprocess({}),
 	kit: {
 		adapter: adapter()
-	}
+	},
+	alias: {
+		$components: 'src/components',
+		$utils: 'src/utils'
+	  }
 };
 
 export default config;
