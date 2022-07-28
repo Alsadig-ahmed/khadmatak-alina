@@ -2,12 +2,13 @@
   import Servce from './Servce.svelte'
 	export let title = 'خدمتك علينا';
 
+  let myLinks; 
     function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
+  console.log(myLinks);
+  if (myLinks.style.display === "block") {
+    myLinks.style.display = "none";
   } else {
-    x.style.display = "block";
+    myLinks.style.display = "block";
   }
 }
 </script>
@@ -15,25 +16,19 @@
 <div class="topnav">
   <a href="/" class="active fs-2">{title}</a>
   <!-- Navigation links (hidden by default) -->
-  <div id="myLinks">
+  <div bind:this={myLinks} id="myLinks">
     <a href="https:bit.ly/alina-app"  target="_blank" rel="noopener noreferrer">تنزيل التطبيق</a>
     <!-- <a href="mailto:abdos09670@gmail.com">ارسال رسالة للادارة</a> -->
     <a href="mailto:fkar.tgdme@gmail.com">ارسال رسالة للادارة</a>
     <a href="supervisor">المشرفين</a>
     <a href="about">معلومات عن التطبيق</a>
   </div>
-  <a href="#" class="icon" on:click={myFunction}>
-    <!-- <svg viewBox='0 0 10 8' width='40'>
+  <a href="/" class="icon" on:click|preventDefault={myFunction}>
+    <svg viewBox='0 0 10 8' width='40'>
       <path d='M1 1h8M1 4h 8M1 7h8' 
             stroke='#000' 
             stroke-width='2' 
             stroke-linecap='round'/>
-    </svg> -->
-    <svg viewBox='-5 0 10 8' width='40'>
-      <line y2='8' 
-            stroke='#000' 
-            stroke-width='10' 
-            stroke-dasharray='2 1'/>
     </svg>
   </a>
 </div>
