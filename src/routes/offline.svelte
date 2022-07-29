@@ -1,3 +1,7 @@
+<script context="module">
+	export let prerender = true;
+</script>
+
 <script>
 	import Wrapper from '$lib/Wrapper.svelte';
 </script>
