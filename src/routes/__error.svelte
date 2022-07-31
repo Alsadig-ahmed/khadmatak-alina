@@ -10,7 +10,7 @@
 <Header />
 
 <Wrapper>
-	<div class="added">يالا الاسف , يبدو انه ليس لديك اتصال إنترنت</div>
+	<div class="added">sorry something went wrong</div>
 </Wrapper>
 
 <style>
